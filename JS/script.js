@@ -21,10 +21,10 @@ fetch("../db/data1.json")
                 <p class="text-yellow-400 font-bold text-4xl p-4 pr-2">$${product.price}</p>
             </div>
         
-            <div class="px-6 pt-4 pb-2">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-auto productoAgregar" id=${product.id}>Agregar</button>
-                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-auto productoEliminar" id=${product.id}>Eliminar</button>
-                <p id="count-${product.id}" class="hidden">0</p>
+            <div class="px-6 pt-4 pb-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-auto productoAgregar transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" id=${product.id}>Agregar</button>
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-auto productoEliminar transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" id=${product.id}>Eliminar</button>
+                <p id="count-${product.id}" class="hidden bg-yellow-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-auto">${cartProducts[product.id] || 0}</p>
             </div>
         </div>`
 
