@@ -1,0 +1,26 @@
+[{
+    "id": 5,
+    "name": "Jamon y queso",
+    "price": 900,
+    "img": "../assets/jyq.jpg"
+},
+{
+    "id": 6,
+    "name": "Carne",
+    "price": 1000,
+    "img": "../assets/carne.avif"
+    
+},
+{
+    "id": 7,
+    "name": "Verdura",
+    "price": 1100,
+    "img": "../assets/verdura.jpg"
+},
+{
+    "id": 8,
+    "name": "Caprese",
+    "price": 1150,
+    "img": "../assets/caprese.jpg"
+}
+]

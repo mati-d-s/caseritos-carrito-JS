@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Muzarella",
+        "price": 10000,
+        "img": "../assets/muzza1.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Napolitana",
+        "price": 12000,
+        "img": "../assets/napo.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fugazzeta",
+        "price": 12500,
+        "img": "../assets/fugazzet.jpg"
+    },
+    {
+        "id": 4,
+        "name": "J. y morrones",
+        "price": 13000,
+        "img": "../assets/jamon.jpg"
+    }
+]
