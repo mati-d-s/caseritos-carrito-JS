@@ -16,3 +16,21 @@
   .hidden {
     display: none;
 }
+
+.md\:flex {
+    display: flex;
+}
+
+/* Estilos para tabletas y dispositivos más grandes */
+@media (min-width: 768px) {
+  .flex-container {
+      /* Aquí puedes agregar o sobrescribir los estilos para tabletas */
+  }
+}
+
+/* Estilos para desktop y dispositivos más grandes */
+@media (min-width: 1024px) {
+  .flex-container {
+      /* Aquí puedes agregar o sobrescribir los estilos para desktop */
+  }
+}
